@@ -164,6 +164,20 @@ Consonant Key: `3`
 
 ---
 
+**Decryption:**
+
+| Character | Type      | Index |  New Index  | Decrypted Char |
+| --------- | --------- | ----- | ----------- | ---------------|
+| I         | Vowel     | 2     |  (2-2)%6=0  | A              |
+| w         | Consonant | 17    |(17-3)%20=14 | s              |
+| l         | Consonant | 8     |  (8-3)%20=5 | h              |
+| u         | Vowel     | 4     |  (4-2)%6=2  | i              |
+| n         | Consonant | 10    |(10-3)%20=7  | k              |
+
+**Recovered Plaintext:** `"Ashik"`
+
+---
+
 ## 5️⃣ Source Code Implementation
 
 ### 🚀 Implementation in C++
